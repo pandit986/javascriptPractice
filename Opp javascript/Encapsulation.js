@@ -16,13 +16,13 @@ class SavingAcoount{
         return this.#balace
     }
     withdraw(amount){
-        if(amount === 0){
+        if(amount <= 0){
             console.log("Enter the Valid Number") 
             return
         }
         else if(amount > 0 && amount <= this.#balace){
             this.#balace -= amount
-            return this.#balace; 
+            console.log('Remaining Balance',this.#balace)
         }else{
             console.log("Insuffient Balance")
         }
