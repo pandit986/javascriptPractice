@@ -17,7 +17,7 @@ class Calculator{
         return this.a - this.b
     }
     multiply(){
-
+        return this.a * this.b
     }
 }
 
@@ -27,4 +27,5 @@ console.log(addNumber.add(10,25))
 console.log(addNumber)
 // console.log(addNumber.subStrcat())
 // console.log(addNumber.divide())
+console.log(addNumber.multiply())
 
